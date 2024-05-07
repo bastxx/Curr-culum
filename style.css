@@ -1,0 +1,45 @@
+/* main css start here  */
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* main css end here  */
+
+
+/* common css start here  */
+
+:root {
+    --font-one: "Montserrat", sans-serif;
+    --font-two: "Roboto", sans-serif;
+    --color-one: #000;
+    --color-two: #929AAB;
+    --color-three: #eee;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: var(--font-one);
+}
+
+p, a, li {
+    font-family: var(--font-two);
+    color: var(--color-two);
+    font-size: 18px;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+/* common css end here  */
