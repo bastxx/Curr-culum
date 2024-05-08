@@ -151,6 +151,7 @@ header {
 .profile-wrapper {
     padding-bottom: 30px;
     border-bottom: 2px solid var(--color-three);
+    align-self: flex-start;
 }
 
 .profile-wrapper p {
@@ -226,7 +227,9 @@ footer {
         padding-bottom: 30px;
     }
 
-    
+    .profile-wrapper .col-12 {
+        padding: 0;
+    }
 
 }
 
@@ -247,5 +250,8 @@ footer {
         padding-bottom: 40px;
     }
 
+    .profile-wrapper .col-12 {
+        padding: 0;
+    }
 
 }
