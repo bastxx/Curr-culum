@@ -198,3 +198,54 @@ footer {
 .footer-content a {
     text-decoration: underline;
 }
+
+
+/* ###### Media queries  ######  */
+
+@media screen and (max-width:480px) {
+    
+
+    header {
+        height: 90px;
+    }
+
+    .applicant-name h1 {
+        font-size: 30px;
+    }
+
+   
+    .col-pd-side {
+        padding-right: 0;
+    }
+
+    .col-pd-main {
+        padding-left: 0;
+    }
+
+    .details-wrapper, .skills-wrapper, .hobbies-wrapper {
+        padding-bottom: 30px;
+    }
+
+    
+
+}
+
+
+
+@media screen and (max-width:767px) and (min-width:481px) {
+
+
+    .col-pd-side {
+        padding-right: 0;
+    }
+
+    .col-pd-main {
+        padding-left: 0;
+    }
+
+    .hobbies-wrapper {
+        padding-bottom: 40px;
+    }
+
+
+}
